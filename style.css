@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.boardContainer {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+}
+
+.boardCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    
+}
